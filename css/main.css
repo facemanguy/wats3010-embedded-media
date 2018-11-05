@@ -45,6 +45,7 @@ video{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 8;
 }
 
 header li{
@@ -70,13 +71,14 @@ header li a{
 }
 
 aside{
-    top: 94px;
+    top: 24px;
     right: 16px;
     background-color: #43abaa;
     position: fixed;
     text-align: center;
     padding: 4px;
     border: solid black;
+    z-index: 9;
 }
 
 aside li{
@@ -90,8 +92,8 @@ aside a{
     color: white;
 }
 
-a:hover{
-    color: violet;
+section h2, h3{
+    padding: 1rem;
 }
 
 section#watch{
@@ -100,4 +102,44 @@ section#watch{
     margin: 1rem;
     padding: 2rem;
     border: outset #333;
+}
+
+section#watch a, section#listen a{
+    text-decoration: none;
+    padding: 1rem;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: greenyellow;
+}
+
+section#listen{
+    text-align: center;
+    background-image: linear-gradient(#43abaa, #9ac798, #54bd81);
+    border-top: #333 solid;
+}
+
+section#about{
+    background-image: linear-gradient(#54bd81, #9ac798, #30605f);
+    text-align: center;
+}
+
+.weybec-people{
+    width: 100vw;
+}
+
+.weybec-people li{
+    float: left;
+    margin: 0 auto;
+    padding: 3rem;
+    display: block;
+    text-align: center;
+}
+
+.weybec-people img{
+    max-width: 22vw;
+    border: inset black;
+}
+
+a:hover{
+    color: violet;
 }
