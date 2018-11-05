@@ -34,7 +34,7 @@ video{
 header li{
     float: left;
     display: block;
-    color: white;
+    color: greenyellow;
     text-align: center;
     padding: 16px;
 }
@@ -51,4 +51,29 @@ header li a{
     font-weight: 800;
     color: greenyellow;
     padding: 4px 16px 16px 16px;
+}
+
+aside{
+    top: 94px;
+    right: 16px;
+    background-color: crimson;
+    position: fixed;
+    text-align: right;
+    padding: 4px;
+    border: solid black;
+}
+
+aside li{
+    display: block;
+    padding: 4px;
+    text-align: right;
+}
+
+aside a{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+a:hover{
+    color: violet;
 }
