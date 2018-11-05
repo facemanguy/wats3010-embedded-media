@@ -125,12 +125,15 @@ section#about{
 
 .weybec-people{
     width: 100vw;
+    display: inline-block;
+    margin: auto;
 }
 
 .weybec-people li{
     float: left;
-    margin: 0 auto;
-    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem;
     display: block;
     text-align: center;
 }
@@ -138,6 +141,10 @@ section#about{
 .weybec-people img{
     max-width: 22vw;
     border: inset black;
+}
+
+.weybec-info{
+    clear: left;
 }
 
 a:hover{
