@@ -11,8 +11,13 @@
      font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
- header video{
-     margin-top: 83px;
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+ #headvid{
+    margin-top: 94px;
  }
 
  header ul{
