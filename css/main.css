@@ -123,6 +123,11 @@ section#about{
     text-align: center;
 }
 
+.lead{
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+
 .weybec-people{
     width: 100vw;
     display: inline-block;
@@ -149,4 +154,28 @@ section#about{
 
 a:hover{
     color: violet;
+}
+
+footer{
+    background-color: #333;
+    color: whitesmoke;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+    padding: 1rem;
+    height: 4rem;
+}
+
+footer li{
+    float: left;
+    display: block;
+    text-align: center;
+    background: #333;
+    width: 33.3%;
+    padding: 1rem 0rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
 }
